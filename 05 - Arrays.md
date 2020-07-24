@@ -1,7 +1,7 @@
 # Arrays
 Um breve guia sobre o funcionamento de arrays em javascript.
 
-### Sintaxe
+## Sintaxe
 
 ```javascript
 var myArray = [
@@ -10,10 +10,10 @@ var myArray = [
   "Beatriz
 ];
 ```
-### Funções básicas
+## Funções básicas
 
-#### array.push(<value>)
+### array.push(<value>)
 Adiciona value ao final do array.  
   
-#### array.pop()
-Remove o último elemento do array.
+### array.pop()
+Remove o último elemento do array e retorna esse elemento.
