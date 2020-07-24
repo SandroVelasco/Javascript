@@ -10,3 +10,10 @@ var myArray = [
   "Beatriz
 ];
 ```
+### Funções básicas
+
+#### array.push(<value>)
+Adiciona value ao final do array.  
+  
+#### array.pop()
+Remove o último elemento do array.
