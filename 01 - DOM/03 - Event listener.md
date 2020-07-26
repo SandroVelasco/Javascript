@@ -6,7 +6,7 @@ Um breve guia sobre Event Listener. O Event Listener funciona como uma escuta qu
 document.querySelector("button").addEventListener(<evento>, <função anônima ou de callback>);
 
 // Método por função anônima
-document.querySelector("button").addEventListener("click", function() {
+document.querySelector("button").addEventListener("click", function(event) { // event recebe todas as propriedades e métodos do evento.
   alert("Botão clicado!");
 });
 
