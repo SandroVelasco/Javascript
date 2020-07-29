@@ -12,6 +12,14 @@ Um breve guia sobre o funcionamento dos loops.
 for (var i=0; i<10; i++) {}
 ```
 
+**For loop com arrays:**
+```javascript
+let sandroArray = ['Hello'];
+for (let word of sandroArray) {
+  console.log(word); //output: Hello;
+}
+```
+
 ## While loop
 
 ### Sintaxe
